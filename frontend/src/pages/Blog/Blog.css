@@ -1,0 +1,49 @@
+
+    
+.blog{
+    background-color: rgb(220, 222, 222);
+    align-items: center;
+    padding: 0px 5%;
+    max-height: 70vh;
+    overflow: scroll;
+}
+.blog::-webkit-scrollbar{
+    display: none;
+}
+.box{
+    background-color: tomato;
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    color:white;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+.jpg{
+    width:25%;
+   
+    margin-left: 2%;
+    
+}
+.text{
+    margin-left: 2%;
+}
+.icon{
+    width: 8%;
+    height: 10%;
+}
+
+@media (max-width:750px) {
+    .blog{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .jpg{
+        width: 235px;
+    }
+}
